@@ -9,7 +9,7 @@ export default {
     // sidebar,
     sidebar,
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/printfCYQ" },
     ],
     outlineTitle: "On this page",
     footer: {

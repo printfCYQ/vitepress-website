@@ -13,8 +13,8 @@ hero:
       text: 冲冲冲！
       link: /home/index
     - theme: alt
-      text: 在 github 源码
-      link: https://github.com/vuejs/vitepress
+      text: github 源码
+      link: https://github.com/printfCYQ/vitepress-website
 features:
   - icon: ⚡️
     title: 记录生活，记录学习
