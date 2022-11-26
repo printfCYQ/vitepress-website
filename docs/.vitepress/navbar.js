@@ -17,6 +17,12 @@ const nav = [
       { text: "vue3", link: "/vue/vue3/index" },
     ],
   },
+  {
+    text: "TOOLS",
+    items: [
+      { text: "vitepress", link: "/tools/vitepress/index" },
+    ],
+  },
 ];
 
 export default nav;
