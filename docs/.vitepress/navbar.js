@@ -19,9 +19,11 @@ const nav = [
   },
   {
     text: "TOOLS",
-    items: [
-      { text: "vitepress", link: "/tools/vitepress/index" },
-    ],
+    items: [{ text: "vitepress", link: "/tools/vitepress/index" }],
+  },
+  {
+    text: "crossPlatform",
+    items: [{ text: "tauri", link: "/crossPlatform/tauri/index" }],
   },
 ];
 
