@@ -2,7 +2,7 @@ import nav from "./navbar";
 import sidebar from "./sidebar";
 export default {
   themeConfig: {
-    base: "./",
+    base: "/vitepress-website/",
     logo: "/image/cover.png",
     siteTitle: "CYQ notes",
     nav,
