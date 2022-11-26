@@ -1,5 +1,10 @@
 # vitepress + github page
 
+## 文档
+
+- 官网：https://vitepress.vuejs.org
+- 中文：https://vitejs.cn/vitepress/
+
 ## 创建 github 代码仓库
 
 ![An image](/image/tools/vitepress/Snipaste_2022-11-26_10-34-02.png)
@@ -48,7 +53,8 @@ mkdir docs && echo '# Hello VitePress' > docs/index.md
 yarn docs:dev
 ```
 
-open <a href="http://localhost:5174" target="_blank" rel="noreferrer">http://localhost:5174</a>
+open `http://localhost:5174`
+
 ![An image](/image/tools/vitepress/Snipaste_2022-11-26_10-40-27.png)
 
 ## 创建 workflows
