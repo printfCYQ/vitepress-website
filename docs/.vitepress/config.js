@@ -1,8 +1,8 @@
 import nav from "./navbar";
 import sidebar from "./sidebar";
 export default {
+  base: "/vitepress-website/",
   themeConfig: {
-    base: "/vitepress-website/",
     logo: "/image/cover.png",
     siteTitle: "CYQ notes",
     nav,
