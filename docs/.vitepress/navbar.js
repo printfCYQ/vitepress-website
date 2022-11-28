@@ -18,6 +18,14 @@ const nav = [
     ],
   },
   {
+    text: "LeetCode",
+    items: [
+      { text: "二分查找", link: "/leetcode/BinarySearch/index" },
+      { text: "动态规划", link: "/leetcode/DynamicProgramming/index" },
+      { text: "贪心算法", link: "/leetcode/GreedyAlgorithm/index" },
+    ],
+  },
+  {
     text: "TOOLS",
     items: [{ text: "vitepress", link: "/tools/vitepress/index" }],
   },

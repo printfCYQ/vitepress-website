@@ -4,6 +4,10 @@ let nameList = [
   "javascript/base",
   "javascript/tools/Array",
   "javascript/tools/Date",
+  "leetcode/BinarySearch/easy",
+  "leetcode/DynamicProgramming/easy",
+  "leetcode/GreedyAlgorithm/easy",
+  "leetcode/GreedyAlgorithm/mid",
 ];
 let sideBarObject = {};
 for (let name of nameList) {
@@ -40,6 +44,32 @@ const sidebar = {
     {
       text: "javascript-base",
       items: sideBarObject["javascript/base"],
+      collapsible: true,
+    },
+  ],
+  "/leetcode/BinarySearch": [
+    {
+      text: "BinarySearch-easy",
+      items: sideBarObject["leetcode/BinarySearch/easy"],
+      collapsible: true,
+    },
+  ],
+  "/leetcode/DynamicProgramming": [
+    {
+      text: "DynamicProgramming-easy",
+      items: sideBarObject["leetcode/DynamicProgramming/easy"],
+      collapsible: true,
+    },
+  ],
+  "/leetcode/GreedyAlgorithm": [
+    {
+      text: "GreedyAlgorithm-easy",
+      items: sideBarObject["leetcode/GreedyAlgorithm/easy"],
+      collapsible: true,
+    },
+    {
+      text: "GreedyAlgorithm-mid",
+      items: sideBarObject["leetcode/GreedyAlgorithm/mid"],
       collapsible: true,
     },
   ],
