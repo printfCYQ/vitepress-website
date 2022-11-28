@@ -19,6 +19,38 @@ const sidebar = {
       collapsible: true,
     },
   ],
+  "/javascript/base": [
+    {
+      text: "javascript-base",
+      items: [
+        {
+          text: "01.原型-原型链",
+          link: "/javascript/base/01.原型-原型链",
+        },
+        {
+          text: "02.立即执行函数",
+          link: "/javascript/base/02.立即执行函数",
+        },
+        {
+          text: "03.闭包",
+          link: "/javascript/base/03.闭包",
+        },
+        {
+          text: "04.作用域-作用域链",
+          link: "/javascript/base/04.作用域-作用域链",
+        },
+        {
+          text: "05.预编译",
+          link: "/javascript/base/05.预编译",
+        },
+        {
+          text: "06.this-apply-call-bind",
+          link: "/javascript/base/06.this-apply-call-bind",
+        },
+      ],
+      collapsible: true,
+    },
+  ],
 };
 
 export default sidebar;

@@ -1,11 +1,15 @@
 # 配置环境(MacOS)
 
+> https://tauri.app/zh/
+
 ## CLang 和 macOS 开发依赖项
+
 ```
 xcode-select --install
 ```
 
 ## 安装 Rust
+
 ```
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 ```
@@ -63,4 +67,22 @@ cargo install tauri-cli
 cargo tauri dev
 ```
 
-![An image](/image/crossPlatform/Snipaste_2022-11-26_18-55-59.png)
+![An image](/image/crossPlatform/tauri/Snipaste_2022-11-26_18-55-59.png)
+
+## vite-vue-ts-pnpm
+
+```
+pnpm create tauri-app
+```
+
+```
+✔ Project name · tauri-app
+✔ Choose your package manager · pnpm
+✔ Choose your UI template · vue-ts
+```
+
+```
+cd tauri-app
+pnpm install
+tauri dev
+```
