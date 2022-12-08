@@ -8,6 +8,7 @@ let nameList = [
   "leetcode/DynamicProgramming/easy",
   "leetcode/GreedyAlgorithm/easy",
   "leetcode/GreedyAlgorithm/mid",
+  "css",
 ];
 let sideBarObject = {};
 for (let name of nameList) {
@@ -71,6 +72,11 @@ const sidebar = {
       text: "GreedyAlgorithm-mid",
       items: sideBarObject["leetcode/GreedyAlgorithm/mid"],
       collapsible: true,
+    },
+  ],
+  "/css": [
+    {
+      items: sideBarObject["css"],
     },
   ],
 };
