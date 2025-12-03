@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r,ae as o}from"./chunks/framework.3fkGreVD.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"html/index.md","filePath":"html/index.md"}'),h={name:"html/index.md"};function l(i,a,n,d,s,c){return r(),t("div",null,[...a[0]||(a[0]=[o("",12)])])}const u=e(h,[["render",l]]);export{m as __pageData,u as default};
