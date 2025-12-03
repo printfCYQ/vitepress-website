@@ -3,18 +3,18 @@ layout: home
 
 hero:
   name: CYQ notes
-  text: 浮萍尚有相逢日
-  tagline: 人岂全无见面时
+  text: 围在城里的人想逃出去
+  tagline: 城外的人想冲进去
   image:
     src: /image/cover.png
     alt: 网站的 logo 图片
   actions:
     - theme: brand
-      text: 冲冲冲！
+      text: about me
       link: /home/index
     - theme: alt
-      text: github 源码
-      link: https://github.com/printfCYQ/vitepress-website
+      text: github
+      link: https://github.com/printfCYQ
 features:
   - icon: ⚡️
     title: 记录生活，记录学习
